@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+colors: #f25287 #f7d9d9 #f9f3f3 #dddddd*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 80px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar style code */
+.navbar{
+    background: #f25287;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 18px 0;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
