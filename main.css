@@ -49,3 +49,42 @@ html{
     margin-left: 20px;
 }
 
+/* home section styling */
+.home{
+    display: flex;
+    background: #f7d9d9 no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.home .max-width{
+    margin-top: 7rem;
+}
+.home-content{
+    display: flex;
+}
+.img{
+    display: inline-block;
+}
+.text{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.home .home-content .text1{
+    font-size: 27px;
+    text-align: center;
+}
+.home .home-content .text2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-right: -3px;
+    text-align: center;
+    color: #f25287;
+}
+.home .home-content .text3{
+    font-size: 40px;
+    margin: 5px 0;
+    text-align: center;
+}
